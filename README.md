@@ -33,7 +33,9 @@ Regularized models produced clearer separation of cell populations while suppres
 ### Chi-Squared Goodness-of-Fit Comparison
 Binned and LOESS-based dispersion estimation reduced poorly fit genes compared to Poisson and global dispersion approaches
 
-<img width="1001" height="356" alt="Chi-squared goodness-of-fit distributions" src="https://github.com/user-attachments/assets/2810568d-b1db-4a10-b521-2240e49a5507" />
+<p align="center">
+  <img src="figures/chi_squared_fit.png" width="1000"/>
+</p>
 
 ---
 ### Variance Stabilization Across Models
