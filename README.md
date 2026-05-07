@@ -31,7 +31,7 @@ Regularized models produced clearer separation of cell populations while suppres
 ---
 
 ### Chi-Squared Goodness-of-Fit Comparison
-Binned and LOESS-based dispersion estimation reduced poorly fit genes compared to Poisson and global dispersion approaches
+Binned and LOESS-based dispersion estimation reduced poorly fit genes compared to Poisson and global dispersion approaches.
 
 <p align="center">
   <img src="figures/chi_squared_fit.png" width="1000"/>
@@ -39,7 +39,7 @@ Binned and LOESS-based dispersion estimation reduced poorly fit genes compared t
 
 ---
 ### Variance Stabilization Across Models
-Gene-specific disperison models produced Pearson residual variances closer to 1, demonstrating improved variance stabilization 
+Gene-specific dispersion models produced Pearson residual variances closer to 1, demonstrating improved variance stabilization.
 <p align="center">
   <img src="figures/variance_stabilization.png" width="1000"/>
 </p>
