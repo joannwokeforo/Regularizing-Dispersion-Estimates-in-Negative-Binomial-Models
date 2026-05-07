@@ -46,9 +46,14 @@ Gene-specific disperison models produced Pearson residual variances closer to 1,
 
 
 ## Repository Structure
-
-scRNAseq_dispersion_analysis.py  -> preprocessing, modelling, evaluation, and visualization pipeline
-figures/                         -> generated plots and visualizations
-report/                          -> final report and methodology write-up
-requirements.txt                 -> project dependencies
-
+```text
+.
+├── scRNAseq_dispersion_analysis.py
+├── requirements.txt
+├── figures/
+└── report/
+    └── Final_Project.pdf
+```
+- `scRNAseq_dispersion_analysis.py` contains preprocessing, modelling, evaluation, and visualization workflows
+- `figures/` contains generated plots used in the report and README
+- `report/` contains the final project write-up
