@@ -24,7 +24,9 @@ The analysis compares the performance of global, gene-wise, binned, and LOESS re
 ### PCA of Residuals
 Regularized models produced clearer separation of cell populations while suppressing noise and outliers.
 
-<img width="1615"  alt="PCA compariosn across models" src="https://github.com/user-attachments/assets/97d7c92e-98a2-4ede-8329-6c9c45aa7a97" />
+<p align="center">
+  <img src="figures/pca_comparison.png" width="1000"/>
+</p>
 
 ---
 
@@ -36,8 +38,9 @@ Binned and LOESS-based dispersion estimation reduced poorly fit genes compared t
 ---
 ### Variance Stabilization Across Models
 Gene-specific disperison models produced Pearson residual variances closer to 1, demonstrating improved variance stabilization 
-
-<img width="1433" height="297" alt="Variance stabilization plots" src="https://github.com/user-attachments/assets/c180e04c-e7b0-4243-befb-0b80c100a0e2" />
+<p align="center">
+  <img src="figures/variance_stabilization.png" width="1000"/>
+</p>
 
 
 ## Repository Structure
